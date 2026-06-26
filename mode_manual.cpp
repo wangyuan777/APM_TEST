@@ -1,18 +1,13 @@
 #include "mode.h"
 #include "Plane.h"
-
-
 #include <AP_ServoRelayEvents/AP_ServoRelayEvents.h>
 #include <GCS_MAVLink/GCS.h>    //地面站
-
 #include <AP_HAL/AP_HAL.h>
 #include <AP_GPS/AP_GPS.h>
 #include <AP_Math/AP_Math.h>
 #include <AP_AHRS/AP_AHRS.h>
 #include <time.h>  // 用于时间格式化
 #include <AP_HAL/AP_HAL.h>
-
-
 
 
 // // GPS数据打印函数实现，每2秒向地面站发送一次消息
